@@ -1,0 +1,70 @@
+html, body { 
+    height: 100%; width: 100%; margin: 0; 
+  } 
+  body{
+    background-color: bisque;
+    background-repeat: no-repeat;
+    background-size: cover;
+     overflow:hidden; 
+    font-family: "Trebuchet MS"; 
+  }
+   #map {
+   margin: 5px;
+    border:solid 4px #224a54;
+    -moz-border-radius: 4px;
+    
+  }
+  #map_root{
+    width: 100% !important;
+    height: 100% !important;
+  }
+  #header {
+    background-image: url(./Imagenes/banner.jpg); background-repeat: repeat-x;
+    margin: 2px;
+    border: solid 4px #224a54;
+    color:white; font-size:18pt; 
+    text-align:left; font-weight:bold; height:70px;
+  }
+  #subheader {
+    font-size:small;
+    color:white;
+    padding-left:20px;
+  }
+  #rightPane{
+    background-image: url(./Imagenes/banner.jpg);
+    color:#3f3f3f;
+    border: solid 2px #224a54;
+    width:20%;
+  }
+  #leftPane{
+    margin: 5px;
+    padding:2px;
+    background-image: url(./Imagenes/banner.jpg);
+    color:#3f3f3f;
+    border: solid 2px #224a54;
+    width:20%;
+ }
+
+  #footer {
+    margin: 2px;
+    border: solid 2px #224a54;
+    background-image: url(./Imagenes/banner.jpg);
+   font-size:10pt; text-align:center; height:40px;
+  }
+  .dijitTabInnerDiv{
+    background-image: url(./Imagenes/amarillo5k.jpg);
+  }
+  #tabs{
+    padding:5px;
+  }
+  #search {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    top: 10px;
+    right: 10px;
+  }
+#BasemapGalerry{
+    position:absolute;
+    z-index: 50;
+}  

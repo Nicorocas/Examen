@@ -1,0 +1,20 @@
+﻿FID;OBJECTID;INFOR;MUNICIPIO;beneficiar;NOMBRE;LONGITUDE;LATITUDE
+0;7;Calle Camino de los Vinateros, 140 (28030);Madrid;7222;Centro de Salud Torito;-3,646236982;40,40627165
+1;8;Calle Arroyo de la Media Legua, 35 (28030);Madrid;6711;Centro de Salud Arroyo de la Medialegua;-3,654494922;40,41200914
+2;9;Paseo Extremadura, 113-115 (28011);Madrid;4530;Centro de Salud Puerta del Angel;-3,735300925;40,41098373
+3;10;Paseo Artilleros, s/n (28032);Madrid;7018;Centro de Salud Vicálvaro--Artilleros;-3,608978025;40,40559056
+4;11;Calle Villablanca, 81 (28032);Madrid;3812;Centro de Salud Villablanca;-3,600061416;40,40582881
+5;13;Calle Arenas del Rey, s/n (28041);Madrid;2844;Centro de Salud Orcasur;-3,700567089;40,36530427
+6;16;Calle Hacienda de Pavones, 271 (28030);Madrid;5300;Centro de Salud Pavones;-3,628974286;40,3993238
+7;17;Calle Martín de Vargas, 15 (28005);Madrid;8554;Centro de Salud Martín de Vargas;-3,701864723;40,40306501
+8;18;Calle Alcalá de Guadaira, 4 (28018);Madrid;4131;Centro de Salud Alcalá de Guadaira;-3,65718885;40,38964224
+9;19;Calle Candilejas, 66 (20018);Madrid;3192;Centro de Salud Angela Uriarte;-3,664078677;40,3821524
+10;20;Calle Sierra de Alquife, 8 (28018);Madrid;9641;Centro de Salud Vicente Soldevilla;-3,667114391;40,38894586
+11;21;Calle Mariano Vela, 62 (28026);Madrid;9667;Centro de Salud Joaquín Rodrigo;-3,709762985;40,38141197
+12;23;Calle Pio Felipe, s/n (28038);Madrid;6466;Centro de Salud Buenos Aires;-3,653591658;40,39414914
+13;24;Calle San Claudio, 154 (28038);Madrid;7872;Centro de Salud Rafael Alberti;-3,639130952;40,38885926
+14;25;Avenida Albufera, 285 (28038);Madrid;5738;Centro de Salud Federica Montseny;-3,639719457;40,38753278
+15;26;Calle Villalobos, 14 (28038);Madrid;3401;Centro de Salud Campo de la Paloma;-3,647879167;40,38207294
+16;27;Calle Fuentidueña, 12 (28031);Madrid;2205;Centro de Salud Villa de Vallecas;-3,622172922;40,37178123
+17;35;Calle O'Donnell, 55 (28009);Madrid;6485;Centro de Salud Goya;-3,671526201;40,42154239
+18;37;Avenida Baviera, 9 (28028);Madrid;8771;Centro de Salud Baviera;-3,663185294;40,44246448
