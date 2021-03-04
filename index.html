@@ -13,7 +13,7 @@
     <script>var dojoConfig = { parseOnLoad: true };</script>
     <script src="https://js.arcgis.com/3.27/"></script>
 
-    <script src="Srcript.js">
+    <script src="./Script.js">
 
     </script>
 
@@ -38,34 +38,33 @@
         <div data-dojo-type="dijit.layout.ContentPane" id="leftPane" data-dojo-props="region:'left'">
             <!--La tabla interna en la que se pueden añadir leyenda y widgets-->
             <div data-dojo-type="dijit.layout.TabContainer">
-            <!-- Ejemplo de añadir un Widget -->
-            <div data-dojo-type="dijit.layout.ContentPane" data-dojo-props="title:'Buscar', selected:true">
-                <div id="search"></div>
-            </div>
-            <!-- Ejemplo para añadir otro widget-->
-            <div data-dojo-type="dijit.layout.ContentPane" data-dojo-props="title:'Leyenda', selected:true">
-                <div id="legendDiv"></div>
-            </div>
-            <!-- Terecer widget -->
-            <div data-dojo-type="dijit.layout.ContentPane" data-dojo-props="title:'Buffer de Ciudades', selected:true">
-            <!-- una division interna para poner botones con funciones como las de limpiar seleccion o la que surja-->
-                <div id="progButtonNode2">
-                    <button id="progButtonNode2">Buffer</button>
-                
+                <!-- Ejemplo de añadir un Widget -->
+
+                <div data-dojo-type="dijit.layout.ContentPane" data-dojo-props="title:'Leyenda', selected:true">
+                    <div id="legendDiv"></div>
                 </div>
-                <div id ="progButtonNode3">
-                    <button id="progButtonNode3">Limpiar seleccion</button>
-                </div>
-        </div> 
+                <!-- Terecer widget -->
+                <div data-dojo-type="dijit.layout.ContentPane" data-dojo-props="title:'Area de Servicio', selected:true">
+                <!-- una division interna para poner botones con funciones como las de limpiar seleccion o la que surja-->
+                    <div id="progButtonNode2">
+                        <button id="progButtonNode2">Dibujar Area de Servicio</button>
+                    
+                    </div>
+                    <div id ="progButtonNode3">
+                        <button id="progButtonNode3">Limpiar seleccion</button>
+                    </div>
+                </div> 
+            </div>
+        </div>
         <!-- Segundo panel, el mapa principal-->
-        <div id="map" data-dojo-type="dijit.layout.ContentPane" data-dojo-props="region:'center'">
+        <div id="Mapa" data-dojo-type="dijit.layout.ContentPane" data-dojo-props="region:'center'">
             <!---Dentro de este pondremos los widgets que son flotantes como un BAsemapGallery con swich-->
             <div style="position:absolute; right:700px; top:10px; z-Index:999;">
                 <div data-dojo-type="dijit/TitlePane" 
                     data-dojo-props="title:'Switch Basemap', open:true">
-                <div data-dojo-type="dijit/layout/ContentPane" style="width:380px; height:280px; overflow:auto;">
-                    <div id="basemapGallery"></div>
-                </div>
+                    <div data-dojo-type="dijit/layout/ContentPane" style="width:380px; height:280px; overflow:auto;">
+                        <div id="basemapGallery"></div>
+                    </div>
                 </div>
             </div>
             
@@ -74,7 +73,7 @@
         <!-- Ultimo panel el Footer la parte de abajo, en este caso veremos si lo utilizamos para añadir un  locator-->
         <div id="footer" data-dojo-type="dijit.layout.ContentPane" data-dojo-props="region:'bottom'">
 
-            <label for="dtb">Introduzca el nombre de un Hospital:</label> <input id="dtb" data-dojo-type="dijit/form/TextBox" value="Washington" />
+            <label for="dtb">Introduzca el nombre de un Hospital:</label> <input id="dtb" data-dojo-type="dijit/form/TextBox" value="Hospital" />
             <button id="progButtonNode" type="button">Ir al hospital</button>
           </div>
         
